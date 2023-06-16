@@ -20,10 +20,12 @@ timezone: Africa/Cairo
 
 title: Mohamed's Corner # the main title
 
-tagline: A place of horrible ideas and GPU-induced pain # it will display as the sub-title
+tagline: | # it will display as the sub-title
+  Ramblings, dumb ideas, and
+  pain 
 
 description: >- # used by seo meta and the atom feed
-  A small blog where I write up about random experiences related to playing around with graphics programming and hardware design.
+  A place of horrible ideas and GPU-induced pain
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://mohamexiety.github.io"
@@ -31,7 +33,7 @@ url: "https://mohamexiety.github.io"
 github:
   username: mohamexiety # change to your github username
 
-twitter:
+#twitter:
   # username: # change to your twitter username
 
 social:
@@ -80,7 +82,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "assets/logo.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
